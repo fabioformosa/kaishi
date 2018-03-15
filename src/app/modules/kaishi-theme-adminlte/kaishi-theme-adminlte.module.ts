@@ -20,8 +20,7 @@ import {
   ],
   declarations: [KaishiThemeAdminlteComponent],
   exports: [
-    KaishiThemeAdminlteComponent,
-    User
+    KaishiThemeAdminlteComponent
   ],
   providers : [
    MenuService,
