@@ -1,1 +1,0 @@
-export * from './src/app/modules/kaishi-theme-adminlte/kaishi-theme-adminlte.module'

@@ -7,25 +7,19 @@
     {
       "root": "src",
       "outDir": "dist",
-      "assets": [
-        "assets",
-        "favicon.ico",
-        { "glob": "**/*", "input": "../node_modules/ngx-admin-lte/public/assets", "output": "./assets" }
-      ],
+      "assets": ["assets", "favicon.ico", { "glob": "**/*", "input": "../node_modules/ngx-admin-lte/public/assets", "output": "./assets" }],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
-      "styles": [
-        "styles.css"
-      ],
+      "prefix": "kaishi",
+      "styles": ["styles.css"],
       "scripts": [
-      	"../node_modules/jquery/dist/jquery.min.js",
-    	"../node_modules/bootstrap/dist/js/bootstrap.min.js",
-    	"../node_modules/admin-lte/dist/js/app.min.js"
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/admin-lte/dist/js/app.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
