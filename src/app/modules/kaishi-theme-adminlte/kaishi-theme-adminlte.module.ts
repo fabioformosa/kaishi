@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { KaishiThemeAdminlteComponent } from './kaishi-theme-adminlte.component';
 
-import {NgxAdminLteModule, LayoutAuthComponent} from 'ngx-admin-lte';
+import {NgxAdminLteModule} from 'ngx-admin-lte';
 
 import {
     User,
@@ -21,7 +21,7 @@ import {
   declarations: [KaishiThemeAdminlteComponent],
   exports: [
     KaishiThemeAdminlteComponent,
-    LayoutAuthComponent
+    User
   ],
   providers : [
    MenuService,
