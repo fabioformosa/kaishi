@@ -16,15 +16,14 @@ import { KaishiThemeAdminlteComponent } from './kaishi-theme-adminlte.component'
 @NgModule({
   imports: [
     CommonModule,
+    RouterModule,
     NgxAdminLteModule
   ],
   declarations: [
-    User,
     KaishiThemeAdminlteComponent
   ],
   exports: [
-    KaishiThemeAdminlteComponent,
-    User
+    KaishiThemeAdminlteComponent
   ],
   providers: [
    MenuService,
