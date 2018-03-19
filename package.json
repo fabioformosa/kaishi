@@ -9,9 +9,14 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "packagr": "ng-packagr -p ng-package.json"
+    "packagr": "ng-packagr -p package.json"
   },
   "private": false,
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public_api.ts"
+    }
+  },
   "dependencies": {
     "core-js": "^2.4.1",
     "ngx-admin-lte": "^2.0.0-beta.10",
